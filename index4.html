@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Unidades de Medida em CSS - DIO!</title>
+    <style>
+        p {
+            margin: 0;
+        }
+
+        div {
+            padding: 10px;
+        }
+
+        .exemplo-01 {
+            background-color: #16a085;
+        }
+
+        .exemplo-02 {
+            background-color: #27ae60;
+        }
+
+        .exemplo-03 {
+            background-color: #2980b9;
+        }
+
+        .exemplo-04 {
+            background-color: #9b59b6;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Unidade de medida em x rem</h1>
+
+    <p style="font-size: 2rem;">
+        font-size: 2rem = 32px;
+    </p>
+    <p style="font-size: 2em;">
+        font-size: 2em = 32px;
+    </p>
+    <p style="font-size: 200%;">
+        font-size: 200% = 32px;
+    </p>
+
+    <br><hr><br>
+
+    <div class="exemplo-01" style="font-size: 2rem;">
+        font-size: 2rem;
+        <div class="exemplo-02" style="font-size: 2em;">
+            font-size: 2em;
+            <div class="exemplo-03" style="font-size: 200%;">
+                font-size: 200%;
+            </div>
+        </div>
+    </div>
+
+    <br><hr><br>
+
+    <div class="exemplo-01" style="font-size: 2rem;">
+        font-size: 2rem;
+        <div class="exemplo-02" style="font-size: 2em;">
+            font-size: 2em;
+        </div>
+        <div class="exemplo-03" style="font-size: 200%;">
+            font-size: 200%;
+        </div>
+        <div class="exemplo-04" style="font-size: 2rem;">
+            font-size: 2rem;
+        </div>
+    </div>
+</body>
+</html>
